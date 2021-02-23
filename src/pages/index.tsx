@@ -1,9 +1,22 @@
+import { profile } from "console";
+import { ExperienceBar } from "../components/ExperienceBar";
+import { Profile } from '../components/Profile'
 
+import styles from '../styles/Pages/Home.module.css'
 
 export default function Home() {
   return (
-    <h1>
-      Teste
-    </h1>
+    <div className={styles.container}>
+      <ExperienceBar />
+      <section>
+        <div>
+          <Profile />
+        </div>
+        <div>
+
+        </div>
+      </section>
+    </div>
+
   )
 }
