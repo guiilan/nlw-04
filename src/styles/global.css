@@ -20,6 +20,10 @@ body {
     }
 }
 
+body input textarea button{
+    font: 400 1rem "Inter", small-caption
+}
+
 body {
     background: var(--background);
     color: var(--text);
